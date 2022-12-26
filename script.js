@@ -100,7 +100,7 @@ function calculate(){
     if (type === "-"){
         numMemory.forEach(numM =>{
            
-           num = parseFloat(num) - parseFloat(numMemory)
+           num =  parseFloat(numMemory) - parseFloat(num)
        })
        }
     if (type === "*"){
@@ -112,7 +112,7 @@ function calculate(){
     if (type === "/"){
         numMemory.forEach(numM =>{
            
-           num = parseFloat(num) / parseFloat(numMemory)
+           num =   parseFloat(numMemory) / parseFloat(num)
        })
        }
     numMemory = []
